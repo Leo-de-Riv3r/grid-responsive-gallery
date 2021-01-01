@@ -1,6 +1,9 @@
 body{
   background: rgb(182,56,162);
+background: -moz-linear-gradient(90deg, rgba(182,56,162,1) 0%, rgba(255,84,34,1) 40%, rgba(174,66,77,1) 66%, rgba(115,39,178,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(182,56,162,1) 0%, rgba(255,84,34,1) 40%, rgba(174,66,77,1) 66%, rgba(115,39,178,1) 100%);
 background: linear-gradient(90deg, rgba(182,56,162,1) 0%, rgba(255,84,34,1) 40%, rgba(174,66,77,1) 66%, rgba(115,39,178,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b638a2",endColorstr="#7327b2",GradientType=1);
 }
 
 .title{
